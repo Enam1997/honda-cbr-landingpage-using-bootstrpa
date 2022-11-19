@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    color: white;
+    background-color: rgba(38, 70, 83, 1);
+}
+
+header .navbar img {
+    height: 70px;
+    width: 100px;
+}
+
+header .navbar a {
+    color: white;
+}
+
+header .navbar a:hover {
+    color: red;
+}
+
+header .navbar .active {
+    color: red !important;
+}
+
+header nav .login-btn {
+    color: white;
+    background-color: rgba(231, 111, 81, 1);
+    height: 44px;
+    width: 91px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+.banner-title {
+    font-size: 70px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(235, 168, 168) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+header .purchase-btn {
+    color: white;
+    background-color: rgba(231, 111, 81, 1);
+    height: 44px;
+    width: 168px;
+    border: none;
+    border-radius: 5px;
+}
+
+.feature-bike-images img {
+    height: 243px;
+    width: 288px;
+
+}
+
+.img-grayscale {
+    filter: grayscale(100%);
+}
+
+
+.latest-news .card {
+    border: none;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.2);
+}
+
+.latest-news .card .btn {
+    color: white;
+    background-color: rgba(231, 111, 81, 1);
+    height: 44px;
+    width: 168px;
+    border: none;
+    border-radius: 5px;
+}
